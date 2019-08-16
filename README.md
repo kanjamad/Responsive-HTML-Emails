@@ -1,4 +1,11 @@
 # e-mail service
+
+### Technology
+* HTML
+* CSS
+* Adobe Photoshop CC 2019
+
+
 ### Create attractive, responsive, HTML Emails, that work in over 30 combinations of the most commonly used email clients
 * HTML e-mail are not web pages
 * This is because the mount of each HTML is CSS support in each email client varies.
