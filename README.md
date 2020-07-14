@@ -63,8 +63,29 @@ Let's first add css as 3 media queries.
 }
 ```
 
+## Dark mode
+The CSS selectors are prefers-color-scheme, [data-ogsc], and [data-ogsb] and we will be using these selectors to update the dark mode 
 
+### Enable dark mode in email clients
+To tell email or browser clients that dark mode is available in this HTML file, we need to add some lines of code to the <head> and <style> sections.
+In the <head> tag where all the <meta> tags are defined, add these lines of code:
+
+```
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+```
+And under the <style> tag add:
+
+```
+:root {
+color-scheme: light dark;
+supported-color-schemes: light dark;
+}
+```
 ### Additional Resources
 1. <a href="https://www.youtube.com/user/chrisconverse" target="_blank">Chris Converse</a>
+2. <a href="https://help.designmodo.com/article/postcards-dark-mode/" target="_blank">Postcards-dark-mode</a>
+3. <a href="https://www.freecodecamp.org/news/dark-mode-in-html-email-everything-you-need-to-know/amp/" target="_blank">Freecodecamp</a>
+
 
 
