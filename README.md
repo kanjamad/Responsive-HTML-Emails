@@ -1,5 +1,7 @@
 # e-mail service
 
+![app-mockup](email.gif "app-mockup")
+
 ### Technology
 * HTML
 * CSS
