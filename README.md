@@ -6,6 +6,8 @@
 * HTML
 * CSS
 * Adobe Photoshop CC 2019
+* Markup Validation Service (W3C)
+* Litmus testing
 
 
 ### Create attractive, responsive, HTML Emails, that work in over 30 combinations of the most commonly used email clients
@@ -84,10 +86,32 @@ color-scheme: light dark;
 supported-color-schemes: light dark;
 }
 ```
+
+## validation and Testing
+* That before we send out our e-mail and before we load this into a third party content management system that will deploy the e-mails will want to validate our code just to make sure it's as clean as possible. By using a free tool by the <a href="http://validator.w3.org/" target="_blank">W3C</a> it called the markup validation service.
+ 
+#### Testing your HTML email with an online service: 
+The way to test for different email clients to see if your HTML email is rendering properly. 
+So online there's quite a few popular services there's 
+* active campaign 
+* campaign monitor  
+* e-mail on acid
+* litmus 
+* MailChimp and 
+* constant contact 
+
+I used <strong>Litmus </strong>, so Litmus has the ability to show screenshots from 34 of the most popular email clients and we get a live presentation on the Web site of how our e-mails are during through all of these individual e-mail clients.
+
+
+
+
+
+
 ### Additional Resources
 1. <a href="https://www.youtube.com/user/chrisconverse" target="_blank">Chris Converse</a>
 2. <a href="https://help.designmodo.com/article/postcards-dark-mode/" target="_blank">Postcards-dark-mode</a>
 3. <a href="https://www.freecodecamp.org/news/dark-mode-in-html-email-everything-you-need-to-know/amp/" target="_blank">Freecodecamp</a>
+4. <a href="http://validator.w3.org/" target="_blank">Markup Validation Service</a>
 
 
 
